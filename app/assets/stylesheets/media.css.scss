@@ -1,0 +1,98 @@
+	
+	* {
+		margin: 0;
+		padding: 0;
+	}
+	
+	
+	li {
+		padding-top: 12px;
+		display: inline;
+		padding-left: 10px;
+		font-family: 'Josefin Sans', serif;
+		font-weight: 600;
+		font-size: 18px;
+		text-transform: uppercase;
+		text-align: right;
+		}
+			
+	li a {
+		text-decoration: none;
+		padding-right: 10px;			
+		}
+
+	li:last-child {
+		padding-right: 0px;
+	}
+	
+	
+	h3 {
+		font-family: 'Josefin Sans', serif;
+		font-weight: 400;
+		text-transform: uppercase;
+		padding-top: 8px;
+		font-size: 18px;
+		margin-top: 16px;
+		border-bottom: 1px dashed;
+	}
+	
+	.left_title {
+		letter-spacing: 0.1em;
+	}
+	
+	.publication_author {
+		font-family: 'Playfair Display', serif;
+		font-size: 26px;
+
+
+	}
+	
+	.publication_title {
+		font-family: 'Playfair Display', serif;
+		font-size: 26px;
+		padding-top: 10px;
+		line-height: 1.3em;
+	}
+	
+	.publication_author {
+		font-family: 'Vollkorn', serif;
+		font-size: 18px;
+		font-style: italic;
+		margin-top: 3px;
+		margin-bottom: 1px;
+	}
+	
+	.publication_description {
+		font-family: 'Vollkorn', sans-serif;
+		font-size: 18px;
+		line-height: 1.4em;
+	}
+	
+		.navbar {
+			padding-top: 13px;
+		}
+	
+		#main_logo {
+		font-family: 'Josefin Slab', serif;
+		font-weight: 600;
+		text-transform: uppercase;
+		padding-top: 12px;
+		font-size: 18px;
+		letter-spacing: 1px;
+	}
+		
+	
+	.page_title {
+		font-family: 'Josefin Slab', serif;
+		font-family: 400;
+		font-size: 40px;
+		padding-top: 30px;
+		padding-bottom: 15px;
+		
+	}
+	
+	
+	.publications_sales_text {
+		
+	}
+	

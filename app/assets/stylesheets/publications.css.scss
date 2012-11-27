@@ -1,0 +1,124 @@
+	
+	* {
+		margin: 0;
+		padding: 0;
+	}
+	
+	#main_logo a {
+		font-family: 'Josefin Slab', serif;
+		font-weight: 300;
+		text-transform: uppercase;
+		padding-top: 12px;
+		font-size: 18px;
+		letter-spacing: 0.1em;
+		text-decoration: none;
+	}
+	
+	a {
+		text-decoration: none;
+		text-align: right;
+		color: #D95B43;
+		border-bottom: 1px dotted #D95B43;
+
+	}
+	
+	
+	a:hover {
+		color: #C02942;
+		border-bottom: 1px dotted #C02942;
+
+	}
+		
+	li {
+		padding-top: 12px;
+		display: inline;
+		padding-left: 10px;
+		font-family: 'Josefin Sans', serif;
+		font-weight: 300;
+		font-size: 18px;
+		text-transform: uppercase;
+		text-align: right;
+		}
+			
+	li a {
+		text-decoration: none;
+		margin-right: 10px;
+		/* color: #53777A;		 */	
+		}
+
+	li a:hover {
+/* 		padding: 10px 0px 1px 0px; */
+/*
+		color: #542437;
+		border-bottom: 1px dotted #542437;
+*/
+
+	}
+
+	li:last-child {
+		margin-right: 0px;
+	}
+	
+	.navbar {
+		padding-top: 15px;
+		}
+
+	
+	h3 {
+		font-family: 'Josefin Sans', serif;
+		font-weight: 400;
+		text-transform: uppercase;
+		padding-top: 8px;
+		font-size: 18px;
+		margin-top: 16px;
+		border-bottom: 1px dashed;
+		color: #343434;
+	}
+
+	.first_category {
+		margin-top: 20px;
+	}
+	
+	.left_title {
+		letter-spacing: 0.1em;
+		color: #474747;
+	}
+		
+	.publication_title {
+		font-family: 'Playfair Display', serif;
+		font-size: 26px;
+		padding-top: 10px;
+		line-height: 1.3em;
+		color: #474747;
+	}
+	
+	.publication_author {
+		font-family: 'Vollkorn', serif;
+		font-size: 18px;
+		font-style: italic;
+		margin-top: 4px;
+		margin-bottom: 0px;
+		color: #717f80;
+	}
+	
+	.publication_description {
+		font-family: 'Vollkorn', sans-serif;
+		font-size: 18px;
+		line-height: 1.7em;
+		color:#474747;
+	}
+		
+	.page_title {
+		font-family: 'Josefin Slab', serif;
+		color: #474747;
+		font-weight: 100;
+		font-size: 68px;
+		padding-top: 20px;
+		padding-bottom: 10px;
+/* 		text-shadow: 0px 1px 1px #a2a2a2; */
+		
+	}
+	
+	.footer {
+		margin-bottom: 25px;
+	}

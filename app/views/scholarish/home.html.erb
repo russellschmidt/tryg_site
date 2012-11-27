@@ -1,4 +1,4 @@
-<% provide(:shorttitle, "Home") %>
+<% provide(:title, "Home") %>
 <div class="container_12">	
 <!-- Placeholder text for frontpage image -->
 		
@@ -10,7 +10,7 @@
 	</div>
 		<!-- Sales text -->
 	<div id="sales_text" class="grid_7 push_1">
-		<p>Hi! I&rsquo;m a lecturer and assistant director of Undergraduate Studies at Harvard University. I&rsquo;m currently working on <a href="/projects">two projects</a>. The first is a book for the University of Chicago Press called <a href="/powerwithoutvictory">Power Without Victory</a>, exploring Woodrow Wilson&rsquo;s forgotten contributions to American power. I&rsquo;m also working on a book about <a href="/williamjames">William James</a>. Learn more <a href="/bio">here</a>.</p>
+		<p>Hi! I&rsquo;m a lecturer and assistant director of Undergraduate Studies at Harvard University. I&rsquo;m currently working on <%= link_to "two projects", books_path %></a>. The first is a book for the University of Chicago Press called <%= link_to "Power Without Victory", powerwithoutvictory_path %>, exploring Woodrow Wilson&rsquo;s forgotten contributions to American power. I&rsquo;m also working on a book about <%= link_to "William James", books_path %>. Learn more <%= link_to "here", bio_path %>.</p>
 	</div>
 		
 	<div class="clear"></div>

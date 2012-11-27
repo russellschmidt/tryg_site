@@ -1,4 +1,4 @@
-<% provide(:shorttitle, "Books") %>
+<% provide(:title, "Books") %>
 
 <div class="clear"></div>
 
@@ -7,8 +7,8 @@
 <div class="grid_10 push_1">
 <!-- 			<hr id="book_spacer" /> -->
 	<ul class="book_nav">
-		<li><a href="../books" id="current_selection">William James's Ethical Republic</a></li>
-		<li><a href="../books/powerwithoutvictory.html">Power Without Victory</a></li>
+		<li><a href="#" id="current_selection">William James's Ethical Republic</a></li>
+		<li><%= link_to "Power Without Victory", powerwithoutvictory_path %></li>
 	</ul>
 	<hr id="book_spacer" />
 </div>

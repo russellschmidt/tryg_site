@@ -1,18 +1,13 @@
 TrygSite::Application.routes.draw do
-  get "scholarish/home"
+  root to: 'scholarish#home'
 
-  get "scholarish/publications"
-
-  get "scholarish/books"
-  get "scholarish/powerwithoutvictory"
-
-  get "scholarish/media"
-
-  get "scholarish/cv"
-
-  get "scholarish/bio"
-
-  get "scholarish/contact"
+  match '/publications', to: 'scholarish#publications'
+  match '/books', to: 'scholarish#books'
+  match '/powerwithoutvictory', to: 'scholarish#powerwithoutvictory'
+  match '/media', to: 'scholarish#media'
+  match '/cv', to: 'scholarish#cv'
+  match '/bio', to: 'scholarish#bio'
+  match 'contact', to: 'scholarish#contact'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

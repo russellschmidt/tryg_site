@@ -1,11 +1,19 @@
-<% provide(:longtitle, "Trygve Throntveit") %>
 <!DOCTYPE html>
 <html>
 <head>
-  <title><%= yield(:longtitle) %> | <%= yield(:shorttitle) %></title>
-  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <meta charset="utf-8">
+  <title><%= full_title(yield(:title)) %></title>
+  <meta name="keywords" content="Trygve, Throntveit, Trygve Throntveit, Woodrow, Wilson, Woodrow Wilson" />
+  <meta name="description" content="The personal homepage for Trygve Throntveit, historian and Ph.D."/>
+  <meta name="rating" content="General" />
+  <meta name="ROBOTS" content="ALL" />
+  <%= stylesheet_link_tag    "application", media: "all" %>
+  <link href='http://fonts.googleapis.com/css?family=Playfair+Display:400,400italic|Josefin+Sans:100,300,600|Josefin+Slab:100,300,600|Vollkorn:400italic,400' rel='stylesheet' type='text/css'>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
+  <!--[if lt IE 9]>
+  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
 </head>
 <body>
 <div class="navbar_background">
@@ -15,12 +23,13 @@
 		</div>
 		<div class="navbar push_1 grid_7 align_right">
 			<ul>
-				<li class="nav"><a href="/publications">Publications</a></li>
-				<li class="nav"><a href="/books">Books</a></li>
-				<li class="nav"><a href="/media">Media</a></li>
-				<li class="nav"><a href="/cv">CV</a></li>
-				<li class="nav"><a href="/bio" id="current_selection">Bio</a></li>
+				<li class="nav"><%= link_to "Publications", publications_path %></li>
+				<li class="nav"><%= link_to "Books", books_path %></li>
+				<li class="nav"><%= link_to "Media", media_path %></li>
+				<li class="nav"><%= link_to "CV", cv_path %></li>
+				<li class="nav"><%= link_to "Bio", bio_path %></li>
 				<li class="nav"><a href="mailto:trygve@trygve.com">Contact</a></li>
+				<!-- Need to figure out how to work in the id="current_selection" -->
 			</ul>
 		</div>
 	</div>
