@@ -1,4 +1,19 @@
 TrygSite::Application.routes.draw do
+  get "scholarish/home"
+
+  get "scholarish/publications"
+
+  get "scholarish/books"
+  get "scholarish/powerwithoutvictory"
+
+  get "scholarish/media"
+
+  get "scholarish/cv"
+
+  get "scholarish/bio"
+
+  get "scholarish/contact"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
